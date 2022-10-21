@@ -64,7 +64,7 @@ class Mahasiswa extends Server {
         if($hasil == 0)
         {
             // tampilkan hasil dalam format "JSON"
-        $this->response(array("status" => "Data Berhasil Disimpan"),200);
+        $this->response(array("status" => "Data Berhasil Disimpan..."),200);
         }
         // jika mahasiswa ditemukan
         else
